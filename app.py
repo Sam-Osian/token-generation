@@ -20,7 +20,7 @@ sample_output = [
 ]
 
 st.title("💬 Token Generation Speed Simulator")
-st.markdown("This app simulates how different LLaMA models stream tokens at various speeds. Choose a model below to see how it might 'talk' in real time.")
+st.markdown("This app simulates how different LLaMA models stream tokens at various speeds as performed on an NVIDIA DGX Spark machine.")
 
 # Function to simulate streaming in Streamlit
 def simulate_stream(model_name, tps, initial_delay=False):
